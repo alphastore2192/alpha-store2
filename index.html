@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alpha Store - Catálogo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .producto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 1rem;
+    }
+    .producto img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .producto h2 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    .producto p {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+    .precio {
+      font-weight: bold;
+      color: #007bff;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alpha Store</h1>
+    <p>Catálogo de Productos</p>
+  </header>  <section class="catalogo">
+    <div class="producto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX2D3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1636150957000" alt="AirPods 3ra Generación">
+      <h2>AirPods 3ra Generación</h2>
+      <p class="precio">$X,XXX MXN</p>
+    </div><div class="producto">
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1660803972361" alt="AirPods Pro 2da Generación">
+  <h2>AirPods Pro 2da Generación</h2>
+  <p class="precio">$X,XXX MXN</p>
+</div>
+
+<div class="producto">
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXLY2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1570119346412" alt="Cargador Lightning a USB-C">
+  <h2>Cargador Lightning a USB-C</h2>
+  <p class="precio">$XXX MXN</p>
+</div>
+
+<div class="producto">
+  <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0K2?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1564093058350" alt="Cargador USB-C a USB-C">
+  <h2>Cargador USB-C a USB-C</h2>
+  <p class="precio">$XXX MXN</p>
+</div>
+
+  </section>  <footer>
+    <p>© 2025 Alpha Store - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
