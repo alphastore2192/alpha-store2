@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alpha Store - Catálogo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #1a1a1a;
+    }
+    #productos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .producto {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .producto:hover {
+      transform: scale(1.03);
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .producto h3 {
+      margin: 10px 0;
+      font-size: 1.3rem;
+      color: #222;
+    }
+    .producto p {
+      font-size: 1rem;
+      color: #555;
+      margin: 5px 0;
+    }
+    .precio {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #e63946;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo Alpha Store</h1>
+  </header>
+
+  <section id="productos">
+    <!-- AirPods 3ra Generación -->
+    <div class="producto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1632861347000" alt="AirPods 3ra Generación" />
+      <h3>AirPods 3ra Generación</h3>
+      <p>Sonido espacial con seguimiento dinámico de la cabeza, resistencia al sudor y al agua (IPX4) y hasta 30 horas de duración de batería con el estuche de carga.</p>
+      <p class="precio">$350</p>
+    </div>
+
+    <!-- AirPods Pro 2da Generación -->
+    <div class="producto">
+      <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1591634795000" alt="AirPods Pro 2da Generación" />
+      <h3>AirPods Pro 2da Generación</h3>
+      <p>Cancelación activa de ruido, modo transparencia y audio espacial con seguimiento dinámico de la cabeza.</p>
+      <p class="precio">$450</p>
+    </div>
+
+    <!-- Set Cubo Cable Lightning - USB-C -->
+    <div class="producto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0N2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1645036275512" alt="Cable Lightning a USB-C" />
+      <h3>Set Cubo Cable Lightning - USB-C</h3>
+      <p>Adaptador de corriente USB-C de 20W y cable Lightning a USB-C de 1 metro, ideal para cargar tu iPhone o iPad rápidamente.</p>
+      <p class="precio">$220</p>
+    </div>
+
+    <!-- Set Cubo Cable USB-C - USB-C -->
+    <div class="producto">
+      <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX0N2?wid=1144&hei=1144&fmt=jpeg&qlt=80&.v=1645036275512" alt="Cable USB-C a USB-C" />
+      <h3>Set Cubo Cable USB-C - USB-C</h3>
+      <p>Adaptador de corriente USB-C de 20W y cable USB-C a USB-C de 1 metro, perfecto para cargar dispositivos compatibles con USB-C.</p>
+      <p class="precio">$220</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Alpha Store. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
